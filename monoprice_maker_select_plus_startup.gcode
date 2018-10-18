@@ -14,7 +14,6 @@ G92 E0                       ;zero the extruded length again
 
 ; Draw a line that primes the nozzle
 G1 F10000                    ; SET FEEDRATE FAST
-G1 Z2                        ; RAISE Z-AXIS TO 2MM
 G1 X20 Y-3                   ; MOVE CLOSE TO HOME
 G1 Z.1                       ; LOWER Z-AXIS TO .1MM
 G1 F1500                     ; SET FEEDRATE SLOW
